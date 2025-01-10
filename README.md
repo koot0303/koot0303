@@ -1,6 +1,6 @@
 # I'm koot0303!
 
-## GitHub Status
+## GitHub ステータス
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark)
 
