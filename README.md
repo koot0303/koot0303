@@ -17,7 +17,7 @@
 
 ![](https://skillicons.dev/icons?i=django,flask,vuejs,nodejs)
 
-### データベース
+### DBMS
 
 ![](https://skillicons.dev/icons?i=mysql,sqlite)
 
