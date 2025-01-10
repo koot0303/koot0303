@@ -2,8 +2,8 @@
 
 ## スキル
 ### 言語
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark)
 <div>
-  ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark)
   <img src="https://img.shields.io/badge/-Python-a9a9a9.svg?logo=python&style=plastic" height="30">
   <img src="https://img.shields.io/badge/-JavaScript-a9a9a9.svg?logo=javascript&style=plastic" height="30">
   <img src="https://img.shields.io/badge/-HTML-a9a9a9.svg?logo=html5&style=plastic" height="30">
