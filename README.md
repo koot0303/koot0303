@@ -1,7 +1,6 @@
 # I'm koot0303!
 
-
-
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark)
 
 ## スキル
 ### 言語
