@@ -5,17 +5,14 @@
     <div align="center">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
         <img src="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake.svg" alt="github contribution grid snake animation">
-    </div>
 </div>
 
 <div>
     <h2>スキル</h2>
     <div>
         <h3>言語</h3>
-        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-            <img src="https://skillicons.dev/icons?i=python,javascript,html,css" alt="Languages">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages" align="right">
-        </div>
+            <img align="top"src="https://skillicons.dev/icons?i=python,javascript,html,css" alt="Languages">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
     </div>
     <div>
         <h3>フレームワーク & ライブラリ</h3>
