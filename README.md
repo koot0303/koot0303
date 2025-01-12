@@ -1,7 +1,7 @@
 <h1>Hi there 👋</h1>
 
 <div>
-    <h2>GitHub Status</h2>
+    <h2>GitHub Stats</h2>
         <img height="145px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
         <img height="145px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
         <img src="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake.svg" alt="github contribution grid snake animation">
