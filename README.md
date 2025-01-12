@@ -1,10 +1,12 @@
 <h1>Hi there 👋</h1>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{github_user_name}/{github_user_name}/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{github_user_name}/{github_user_name}/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/{github_user_name}/{github_user_name}/output/github-contribution-grid-snake.svg">
-</picture>
+<div>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake.svg">
+        <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake.svg">
+    </picture>
+</div>
 
 <!-- <div>
     <h1>GitHub Status</h1>
