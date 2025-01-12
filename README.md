@@ -13,7 +13,7 @@
     <div>
         <h3>言語</h3>
         <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-            <img src="https://skillicons.dev/icons?i=python,javascript,html,css" alt="Languages" style="flex-shrink: 0;">
+            <img src="https://skillicons.dev/icons?i=python,javascript,html,css" alt="Languages">
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages" align="right">
         </div>
     </div>
