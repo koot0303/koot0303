@@ -11,16 +11,28 @@
 
 <div>
     <h2>スキル</h2>
-        <h3>言語</h3>
-            <img align="top"src="https://skillicons.dev/icons?i=python,javascript,html,css" alt="Languages">
-        <h3>フレームワーク & ライブラリ</h3>
-            <img src="https://skillicons.dev/icons?i=django,flask,vuejs,nodejs" alt="Frameworks & Libraries">
-        <h3>DBMS</h3>
-            <img src="https://skillicons.dev/icons?i=mysql,sqlite" alt="DBMS">
-        <h3>OS</h3>
-            <img src="https://skillicons.dev/icons?i=windows,linux,raspberrypi" alt="OS">
-        <h3>ツール</h3>
-            <img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Tools">
+    <table>
+        <tr>
+            <th><h3>言語</h3></th>
+            <td><img src="https://skillicons.dev/icons?i=python,javascript,html,css" alt="Languages"></td>
+        </tr>
+        <tr>
+            <th><h3>フレームワーク & ライブラリ</h3></th>
+            <td><img src="https://skillicons.dev/icons?i=django,flask,vuejs,nodejs" alt="Frameworks & Libraries"></td>
+        </tr>
+        <tr>
+            <th><h3>DBMS</h3></th>
+            <td><img src="https://skillicons.dev/icons?i=mysql,sqlite" alt="DBMS"></td>
+        </tr>
+        <tr>
+            <th><h3>OS</h3></th>
+            <td><img src="https://skillicons.dev/icons?i=windows,linux,raspberrypi" alt="OS"></td>
+        </tr>
+        <tr>
+            <th><h3>ツール</h3></th>
+            <td><img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Tools"></td>
+        </tr>
+    </table>
 </div>
 
 <div align="right">
