@@ -1,17 +1,17 @@
 name: generate animation
 
 on:
-
+  # 自動トリガー
   schedule:
-    - cron: "0 */24 * * *"
-
+    - cron: "0 0 * * *"
+  # 手動トリガー
   workflow_dispatch:
   push:
     branches:
     - "*"
 
 jobs:
-
+  # 権限、環境設定
   generate:
     permissions:
       contents: write
@@ -19,9 +19,11 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      # チェックアウト
       - name: Checkout repository
         uses: actions/checkout@v2
-
+      
+      # snake.svgの生成
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -29,10 +31,18 @@ jobs:
           outputs: |
             img/github-contribution-grid-snake.svg
       
+      # SVGファイルのコミット&プッシュ
       - name: commit and push the generated svg to the main branch
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git add img/github-contribution-grid-snake.svg
-          git commit -m "Update github-contribution-grid-snake.svg"
-          git push
+          
+          # ファイルの変更があったか確認
+          git diff --exit-code img/github-contribution-grid-snake.svg
+          if [ $? -ne 0 ]; then
+            git add img/github-contribution-grid-snake.svg
+            git commit -m "Update github-contribution-grid-snake.svg"
+            git push
+          else
+            echo "No changes detected, skipping commit."
+          fi
