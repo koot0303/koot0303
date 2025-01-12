@@ -1,17 +1,10 @@
 <h1>Hi there 👋</h1>
 
 <div>
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake.svg">
-        <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake.svg">
-    </picture>
-</div>
-
-<!-- <div>
     <h1>GitHub Status</h1>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
-</div> -->
+        <img src="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake.svg" alt="github contribution grid snake animation">
+</div>
 
 <div>
     <h1>スキル</h1>
