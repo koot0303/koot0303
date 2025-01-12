@@ -3,8 +3,8 @@
 <div>
     <h2>GitHub Status</h2>
     <div>
-        <img height="150px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
-        <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
+        <img height="125px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
+        <img height="125px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
         <img src="https://raw.githubusercontent.com/koot0303/koot0303/output/github-contribution-grid-snake.svg" alt="github contribution grid snake animation">
     </div>
 </div>
