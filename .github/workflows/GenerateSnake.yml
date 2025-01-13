@@ -31,23 +31,32 @@ jobs:
           outputs: |
             img/github-contribution-grid-snake.svg
       
-      # ファイル確認
-      - name: Debug SVG generation
-        run: |
-          ls -l img/
-          cat img/github-contribution-grid-snake.svg || echo "SVG file not generated"
-      
       # SVGファイルのコミット&プッシュ
-      - name: commit and push the generated svg to the main branch
+      - name: Debug and commit
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           
-          # ファイルの変更があったか確認
+          # ファイルの存在確認
+          echo "Checking if the file exists..."
+          if [ -f img/github-contribution-grid-snake.svg ]; then
+            echo "File exists. Showing its details:"
+            ls -l img/github-contribution-grid-snake.svg
+          else
+            echo "File not found! Exiting..."
+            exit 1
+          fi
+
+          # ファイル内容の確認
+          echo "Checking file content:"
+          cat img/github-contribution-grid-snake.svg || echo "No content found"
+
+          # ファイルの変更確認
           git diff --exit-code img/github-contribution-grid-snake.svg
           if [ $? -ne 0 ]; then
             git add img/github-contribution-grid-snake.svg
             git commit -m "Update github-contribution-grid-snake.svg"
-            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git push https://***@github.com/koot0303/koot0303.git
           else
             echo "No changes detected, skipping commit."
+
