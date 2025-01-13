@@ -31,6 +31,12 @@ jobs:
           outputs: |
             img/github-contribution-grid-snake.svg
       
+      # ファイル確認
+      - name: Debug SVG generation
+        run: |
+          ls -l img/
+          cat img/github-contribution-grid-snake.svg || echo "SVG file not generated"
+      
       # SVGファイルのコミット&プッシュ
       - name: commit and push the generated svg to the main branch
         run: |
@@ -42,7 +48,6 @@ jobs:
           if [ $? -ne 0 ]; then
             git add img/github-contribution-grid-snake.svg
             git commit -m "Update github-contribution-grid-snake.svg"
-            git push
+            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           else
             echo "No changes detected, skipping commit."
-          fi
