@@ -1,7 +1,7 @@
 name: generate animation
 
 on:
-  # 自動トリガー
+  # スケジュールトリガー
   schedule:
     - cron: "*/1 * * * *"
   # 手動トリガー
