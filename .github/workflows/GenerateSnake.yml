@@ -34,15 +34,18 @@ jobs:
       # SVGファイルのコミット&プッシュ
       - name: commit and push the generated svg to the main branch
         run: |
+          # Gitの設定を行う
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          
-          # ファイルの変更があったか確認
-          git diff --exit-code img/github-contribution-grid-snake.svg
+
+          # ファイルの変更があるか確認
+          git diff --quiet img/github-contribution-grid-snake.svg
           if [ $? -ne 0 ]; then
+            # 変更が検出された場合、コミットしてプッシュ
             git add img/github-contribution-grid-snake.svg
             git commit -m "Update github-contribution-grid-snake.svg"
             git push
           else
+            # 変更が検出されなかった場合
             echo "No changes detected, skipping commit."
           fi
