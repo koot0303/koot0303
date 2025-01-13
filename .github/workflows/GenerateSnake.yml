@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - "*"
+      - "*"
 
 jobs:
   # 権限、環境設定
@@ -24,34 +24,26 @@ jobs:
         uses: actions/checkout@v2
       
       # snake.svgの生成
-      - name: generate github-contribution-grid-snake.svg
+      - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             img/github-contribution-grid-snake.svg
       
-      # SVGファイルのコミット&プッシュ
-      - name: commit and push the generated svg to the main branch
+      # SVGファイルの変更を確認し、コミット&プッシュ
+      - name: Commit and push the generated SVG if changed
         run: |
-          # エラー時にスクリプトを終了しないようにする
-          set +e
-
-          # Gitの設定を行う
+          # Gitの設定
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
 
-          # ファイルの変更があるか確認
-          git diff --quiet img/github-contribution-grid-snake.svg
-          if [ $? -ne 0 ]; then
-            # 変更が検出された場合、コミットしてプッシュ
+          # ファイルの変更確認と処理
+          if ! git diff --quiet img/github-contribution-grid-snake.svg; then
+            echo "Changes detected, committing and pushing updates..."
             git add img/github-contribution-grid-snake.svg
             git commit -m "Update github-contribution-grid-snake.svg"
             git push
           else
-            # 変更が検出されなかった場合
             echo "No changes detected, skipping commit."
           fi
-
-          # エラー時にスクリプトを終了する設定に戻す
-          set -e
