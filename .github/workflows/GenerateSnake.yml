@@ -34,6 +34,9 @@ jobs:
       # SVGファイルのコミット&プッシュ
       - name: commit and push the generated svg to the main branch
         run: |
+          # エラー時にスクリプトを終了しないようにする
+          set +e
+
           # Gitの設定を行う
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
@@ -49,3 +52,6 @@ jobs:
             # 変更が検出されなかった場合
             echo "No changes detected, skipping commit."
           fi
+
+          # エラー時にスクリプトを終了する設定に戻す
+          set -e
