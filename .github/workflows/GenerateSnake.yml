@@ -3,7 +3,7 @@ name: generate animation
 on:
   # スケジュールトリガー
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "*/30 * * * *"
   # 手動トリガー
   workflow_dispatch:
   push:
