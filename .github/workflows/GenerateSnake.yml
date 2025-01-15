@@ -39,10 +39,10 @@ jobs:
           git config --global user.name "GitHub Action"
 
           # ファイルの変更確認と処理
-          if ! git diff --quiet img/github-contribution-grid-snake.svg; then
+          if ! git diff --quiet img/github-contribution-grid-snake-dark.svg; then
             echo "Changes detected, committing and pushing updates..."
-            git add img/github-contribution-grid-snake.svg
-            git commit -m "Update github-contribution-grid-snake.svg"
+            git add img/github-contribution-grid-snake-dark.svg
+            git commit -m "Update github-contribution-grid-snake-dark.svg"
             git push
           else
             echo "No changes detected, skipping commit."
