@@ -4,7 +4,7 @@
     <h2>GitHub Stats</h2>
     <img height="145px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
     <img height="145px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
-    <img src="/img/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation">
+    <img src="/img/github-snake.svg" alt="github snake animation">
 </div>
 
 <div>
