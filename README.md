@@ -8,9 +8,7 @@
     <a href="https://github.com/koot0303/">
         <img height="145px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
     </a>
-    <a href="https://github.com/koot0303/">
         <img src="/img/github-snake.svg" alt="github snake animation">
-    </a>
 </div>
 
 <div>
