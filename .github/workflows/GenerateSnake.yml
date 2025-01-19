@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - "*"
+      - "main"
 
 jobs:
   # 権限、環境設定
