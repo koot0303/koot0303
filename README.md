@@ -2,9 +2,15 @@
 
 <div>
     <h2>GitHub Stats</h2>
-    <img height="145px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
-    <img height="145px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
-    <img src="/img/github-snake.svg" alt="github snake animation">
+    <a href="https://github.com/koot0303/">
+        <img height="145px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
+    </a>
+    <a href="https://github.com/koot0303/">
+        <img height="145px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
+    </a>
+    <a href="https://github.com/koot0303/">
+        <img src="/img/github-snake.svg" alt="github snake animation">
+    </a>
 </div>
 
 <div>
