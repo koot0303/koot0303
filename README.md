@@ -12,7 +12,7 @@
     <table>
         <tr>
             <th><h3>言語</h3></th>
-            <td><img src="https://skillicons.dev/icons?i=python,java,swift,javascript,html,css&perline=5" alt="Languages"></td>
+            <td><img src="https://skillicons.dev/icons?i=python,javascript,html,css&perline=5" alt="Languages"></td>
         </tr>
         <tr>
             <th><h3>フレームワーク & ライブラリ</h3></th>
