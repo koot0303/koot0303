@@ -3,7 +3,7 @@
 <div>
     <h2>GitHub Stats</h2>
     <a href="https://github.com/koot0303/">
-        <img height="145px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark" alt="GitHub Status">
+        <img height="145px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=koot0303&theme=dark&count_private=true" alt="GitHub Status">
     </a>
     <a href="https://github.com/koot0303/">
         <img height="145px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koot0303&layout=compact&theme=dark" alt="Most Used Languages">
