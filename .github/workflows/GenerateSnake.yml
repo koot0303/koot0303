@@ -28,8 +28,10 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          token: ${{ secrets.GH_TOKEN }} # トークンを使用
           outputs: |
             img/github-snake.svg?palette=github-dark&color_snake=red
+
       
       # SVGファイルの変更を確認し、コミット&プッシュ
       - name: Commit and push the generated SVG if changed
