@@ -2,9 +2,11 @@
 
 <h2>GitHub Stats</h2>
 <div align="center">
-    <img height="175px" src="https://github-readme-stats-inky-rho-13.vercel.app/api?username=koot0303&bg_color=00000000&title_color=f00&text_color=909090&icon_color=f00&show_icons=true&count_private=true" alt="GitHub Status">
-    <img height="175px" src="https://github-readme-stats-inky-rho-13.vercel.app/api/top-langs/?username=koot0303&layout=compact&bg_color=00000000&title_color=f00&text_color=909090&icon_color=f00&count_private=true" alt="Most Used Languages">
-    <img src="/img/github-snake.svg" alt="github snake animation">
+    <a href="https://github.com/koot0303/">
+        <img height="175px" src="https://github-readme-stats-inky-rho-13.vercel.app/api?username=koot0303&bg_color=00000000&title_color=f00&text_color=909090&icon_color=f00&show_icons=true&count_private=true" alt="GitHub Status">
+        <img height="175px" src="https://github-readme-stats-inky-rho-13.vercel.app/api/top-langs/?username=koot0303&layout=compact&bg_color=00000000&title_color=f00&text_color=909090&icon_color=f00&count_private=true" alt="Most Used Languages">
+        <img src="/img/github-snake.svg" alt="github snake animation">
+    </a>
 </div>
 
 <h2>スキル</h2>
