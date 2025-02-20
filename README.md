@@ -60,7 +60,7 @@
             </th>
             <td>
                 <a href="https://skillicons.dev">
-                    <img src="https://skillicons.dev/icons?i=git,github,vscode&perline=5" alt="Tools">
+                    <img src="https://skillicons.dev/icons?i=git,github,vscode,notion,figma&perline=5" alt="Tools">
                 </a>
             </td>
         </tr>
