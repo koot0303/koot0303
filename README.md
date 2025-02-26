@@ -6,12 +6,12 @@
         <tr>
             <td>
                 <a href="https://github.com/koot0303/">
-                    <img src="https://github-readme-stats-inky-rho-13.vercel.app/api?username=koot0303&bg_color=00000000&title_color=f00&text_color=909090&icon_color=f00&show_icons=true&count_private=true" alt="GitHub Status">
+                    <img src="https://github-readme-stats-inky-rho-13.vercel.app/api?username=koot0303&bg_color=00000000&title_color=f00&text_color=909090&icon_color=f00&show_icons=true&hide_border=true&count_private=true" alt="GitHub Status">
                 </a>
             </td>
             <td>
                 <a href="https://github.com/koot0303/">
-                    <img src="https://github-readme-stats-inky-rho-13.vercel.app/api/top-langs/?username=koot0303&layout=compact&bg_color=00000000&title_color=f00&text_color=909090&icon_color=f00&count_private=true" alt="Most Used Languages">
+                    <img src="https://github-readme-stats-inky-rho-13.vercel.app/api/top-langs/?username=koot0303&layout=compact&bg_color=00000000&title_color=f00&text_color=909090&icon_color=f00&hide_border=true&count_private=true" alt="Most Used Languages">
                 </a>
             </td>
         </tr>    
