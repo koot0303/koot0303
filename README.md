@@ -30,7 +30,7 @@
             </th>
             <td>
                 <a href="https://skillicons.dev">
-                    <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css&perline=5" alt="Languages">
+                    <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,kotlin,swift&perline=5" alt="Languages">
                 </a>
             </td>
         </tr>
@@ -68,7 +68,7 @@
             </th>
             <td>
                 <a href="https://skillicons.dev">
-                    <img src="https://skillicons.dev/icons?i=git,github,vscode,notion,figma&perline=5" alt="Tools">
+                    <img src="https://skillicons.dev/icons?i=git,github,vscode,eclipse,androidstudio,notion,figma&perline=5" alt="Tools">
                 </a>
             </td>
         </tr>
