@@ -1,6 +1,6 @@
-<h1>Hi there 👋</h1>
+# Hi there 👋
 
-<h2>GitHub Stats</h2>
+## GitHub Stats
 <div align="center">
     <table>
         <tr>
@@ -21,7 +21,7 @@
     </a>
 </div>
 
-<h2>スキル</h2>
+## スキル
 <div align="center">
     <table>
         <tr>
