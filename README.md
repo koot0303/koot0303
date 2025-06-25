@@ -30,7 +30,7 @@
             </th>
             <td>
                 <a href="https://skillicons.dev">
-                    <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,kotlin,swift&perline=5" alt="Languages">
+                    <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,php,kotlin,swift&perline=5" alt="Languages">
                 </a>
             </td>
         </tr>
