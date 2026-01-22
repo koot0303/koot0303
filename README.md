@@ -40,7 +40,7 @@
             </th>
             <td>
                 <a href="https://skillicons.dev">
-                    <img src="https://skillicons.dev/icons?i=django,flask,vuejs,nodejs&perline=5" alt="Frameworks & Libraries">
+                    <img src="https://skillicons.dev/icons?i=django,flask,vuejs,electron,nodejs&perline=5" alt="Frameworks & Libraries">
                 </a>
             </td>
         </tr>
