@@ -77,6 +77,6 @@
 
 <div align="right">
     <a href="https://github.com/koot0303/">
-        <img src="https://komarev.com/ghpvc/?username=koot0303" alt="koot0303">
+        <img src="https://komarev.com/ghpvc/?username=koot0303&color=red" alt="koot0303">
     </a>
 </div>
